@@ -1,0 +1,131 @@
+body{
+    background-color: rgb(144, 241, 241);
+
+}
+h1{
+    color: rgb(255, 2, 2);
+    position: relative;
+    margin-left: 40%;
+}
+h5{
+    color: rgba(0, 0, 0, 0.137);
+    position: relative;
+    margin-left: 45%;
+}
+    
+textarea{
+    margin-left: 10%;
+    margin-right: 20%;
+    width: 60%;
+    height: 300px;
+    outline: 0;
+    resize: none;
+    border-color: #ce0707;
+    float: right;
+}
+
+li{
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px; /* Standart */
+    -moz-border-radius: 10px; /* Firefox */
+    -webkit-border-radius: 10px; /* Safari ve Chrome */
+    background: #ffffff;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    list-style: none;
+    float: left;
+}
+span{
+    color: blue;
+}
+form{
+    height: auto;
+    width: auto;
+}
+.hes{ margin-top: 10px;
+    margin-left: 10px;
+    width: 100px;
+    height: 50px;
+    color: black;
+    float: left;
+    border-radius: 10px;
+    outline: none;
+    border-color: navajowhite;
+    
+
+}
+.alert {
+    width: 58%;
+    padding: 12px 16px;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 19.5%;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  .alert.alert-warning{
+    background-color: rgba(248, 215, 218, 1);
+  border-color: rgba(220, 53, 69, 1);
+  color: rgba(114, 28, 36,1);
+}
+.warn,
+.warn::before,
+.warn::after
+{
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.warn {
+  font-size: 30px;
+  color: transparent;
+}
+
+.warn.warning {
+  display: inline-block;
+  top: 0.225em;
+  width: 1.15em;
+  height: 1.15em;
+  overflow: hidden;
+  border: none;
+  background-color: transparent;
+  border-radius: 0.625em;
+}
+
+.warn.warning::before {
+  content: "";
+  display: block;
+  top: -0.08em;
+  left: 0.0em;
+  position: absolute;
+  border: transparent 0.6em solid;
+  border-bottom-color: #fd3;
+  border-bottom-width: 1em;
+  border-top-width: 0;
+  box-shadow: #999 0 1px 1px;
+}
+
+.warn.warning::after {
+  display: block;
+  position: absolute;
+  top: 0.3em;
+  left: 0;
+  width: 100%;
+  padding: 0 1px;
+  text-align: center;
+  font-family: "Garamond";
+  content: "!";
+  font-size: 0.65em;
+  font-weight: bold;
+  color: #333;
+}
+.warn.text{
+    color: black;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
